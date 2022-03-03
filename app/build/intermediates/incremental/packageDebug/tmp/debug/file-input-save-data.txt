@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Mar 02 11:54:29 PST 2022
+0.base=C\:\\Users\\fabri\\AndroidStudioProjects\\android-fundamentals-apps-v2\\TwoActivities\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+count=1
+0.baseType=DIRECTORY
+0.set=DEX
