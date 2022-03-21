@@ -37,7 +37,7 @@ public class ActivityInputOutputTest {
     @Rule
     public ActivityTestRule mActivityRule = new ActivityTestRule<>(
             MainActivity.class);
-}
+
     @Test
     public void useAppContext() throws Exception {
         // Context of the app under test.
@@ -45,4 +45,25 @@ public class ActivityInputOutputTest {
 
         assertEquals("com.example.android.twoactivities", appContext.getPackageName());
     }
+
+    @Test
+    public void activityLaunch() {
+        onView(withId(R.id.button_main)).perform(click());
+        onView(withId(R.id.text_header)).check(matches(isDisplayed()));
+        onView(withId(R.id.button_second)).perform(click());
+        onView(withId(R.id.text_header_reply)).check(matches(isDisplayed()));
+    }
+
+    @Test
+    public void textInputOutput(){
+        onView(withId(R.id.editText_main)).perform(
+                typeText("This is a test"));
+        onView(withId(R.id.button_main)).perform(click());
+        onView(withId(R.id.text_message)).check(matches(withText("This is a test")));
+    }
+
+
+
+
+
 }
