@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\fabri\\AndroidStudioProjects\\android-fundamentals-apps-v2\\TwoActivities\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\fabri\\AndroidStudioProjects\\two-activities\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\fabri\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4d0a7d9794501c45737629087d23538f\\res\\values-v21\\values-v21.xml",
